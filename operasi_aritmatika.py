@@ -20,3 +20,13 @@ a = 2
 b = 3
 hasil = a ** b
 print(hasil)
+
+#modulus , sisa bagi hasil
+a = 10
+b = 3
+hasil = a % b
+print("sisa bagi hasil 10 mod 3 adalah: ",hasil)
+
+#kebalikan dari modulus floor division //
+hasil = a // b
+print("a",  "//", "b", "=", hasil, type(hasil)) #seperti pembagian dibulatkan ke bawah
