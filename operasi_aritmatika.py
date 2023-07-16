@@ -1,3 +1,6 @@
+from c import c
+
+
 a = 100
 b = 40
 
@@ -30,3 +33,12 @@ print("sisa bagi hasil 10 mod 3 adalah: ",hasil)
 #kebalikan dari modulus floor division //
 hasil = a // b
 print("a",  "//", "b", "=", hasil, type(hasil)) #seperti pembagian dibulatkan ke bawah
+
+#prioritas operasi
+#urutan pengerjaan (), exponen, perkalian /, +-
+#tanda kurung akan mengambil langkah pertama
+a = 4
+b = 5
+c = 6
+hasil = (a+b)*c 
+print(hasil)
