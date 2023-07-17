@@ -1,6 +1,3 @@
-from c import c
-
-
 a = 100
 b = 40
 
