@@ -50,3 +50,10 @@ print("lokasi hex memory a =",hex(id(a)))
 print("lokasi hex memory b=", hex(id(b)))
 print("a=3, b=3, a is b =", c)
 #jika diperhatikan lokasi a dan b sama,karena python terlalu pintar untuk efisiensi memory
+
+#is not , sama seperti tidak samadengan
+
+a = 3
+b = 3
+c = a is not b
+print("a=3,b=3, a isnot b = ",c)
