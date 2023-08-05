@@ -30,7 +30,9 @@ data_nama = "rio"
 data_tinggi = "180.4"
 data_string = f"""
 nama = {data_nama:>5}
-
+tinggi = {data_tinggi:>5}
+umur = {data_umur}
+no hp = {data_no_hp}
 """
 print("\n"+5*"="+"Data String pengatur lebar"+5*"=")
 print(data_string)
