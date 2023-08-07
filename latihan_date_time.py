@@ -13,3 +13,8 @@ print(f"Hari ini tanggal: {hari_sekarang}")
 umur_day = hari_sekarang - tanggal_lahir
 umur_year = umur_day.days // 365
 umur_month_sisa = (umur_day.days % 365 ) // 30
+#perbedaan mod dg floor division?
+a = 5
+b = 2
+floordiv = a // b #seharusnya 2.5 namun di cut dengan fungsi floor division jadi hasilnya adalah 2
+print(floordiv)
