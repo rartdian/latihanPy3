@@ -36,3 +36,4 @@ no hp   = {data_no_hp:>5}
 """
 print("\n"+5*"="+"Data String pengatur lebar"+5*"=")
 print(data_string)
+
