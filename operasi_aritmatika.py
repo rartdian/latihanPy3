@@ -28,8 +28,10 @@ hasil = a % b
 print("sisa bagi hasil 10 mod 3 adalah: ",hasil)
 
 #kebalikan dari modulus floor division //
+a = 10
+b = 3
 hasil = a // b
-print("a",  "//", "b", "=", hasil, type(hasil)) #seperti pembagian dibulatkan ke bawah
+print("floor division","a",  "//", "b", "=", hasil, type(hasil)) #seperti pembagian dibulatkan ke bawah
 
 #prioritas operasi
 #urutan pengerjaan (), exponen, perkalian /, +-
