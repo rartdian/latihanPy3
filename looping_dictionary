@@ -1,0 +1,39 @@
+#dic_keys, dict_values, dict_item
+#loop dictionary
+
+kendaraan = {
+"roda_dua" : "sepeda motor",
+"roda tiga" : "viar",
+"roda empat" : "bus"
+}
+
+# memunculkan key nya
+for alat in kendaraan:
+	print (alat)
+
+#operator untuk mengambil item = iterables
+keys = kendaraan.keys()
+print(keys)
+
+for key in kendaraan.keys():
+	print (kendaraan.get(key))
+
+#mengambil valuesny , sama dengan iterables
+values = kendaraan.values()
+print (values)
+
+#mengambil values dengan perulangan
+for values in kendaraan.values():
+	print(values)
+
+
+item = kendaraan.items()
+print(item)
+
+for item in kendaraan.items():
+	print(item)
+
+
+#cara mengambil key atau values secara terpisah
+for key, value in kendaraan.items():
+	print(f"key= {key} , value = {value}")
